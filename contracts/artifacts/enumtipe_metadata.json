@@ -1,0 +1,72 @@
+{
+	"compiler": {
+		"version": "0.8.25+commit.b61c2a91"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "enum enumtipe.State",
+						"name": "newState",
+						"type": "uint8"
+					}
+				],
+				"name": "changeState",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "state",
+				"outputs": [
+					{
+						"internalType": "enum enumtipe.State",
+						"name": "",
+						"type": "uint8"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/Enum.sol": "enumtipe"
+		},
+		"evmVersion": "cancun",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/Enum.sol": {
+			"keccak256": "0x75751b4c1b9922385c37a98965417c88970f80c0cc277b73f2a07f5280c109b7",
+			"license": "GPL-3.0",
+			"urls": [
+				"bzz-raw://2a2e7ab976482371b5f1a6740b96b978ac9e3fd19897aecc644bda6d8ccc3019",
+				"dweb:/ipfs/QmTnxRayViNM6D1BG41hGGy2Bbt2ocsMDJ2zrL7xjVCnpP"
+			]
+		}
+	},
+	"version": 1
+}

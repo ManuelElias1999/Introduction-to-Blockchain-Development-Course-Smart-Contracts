@@ -1,0 +1,70 @@
+{
+	"compiler": {
+		"version": "0.8.25+commit.b61c2a91"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "int256",
+						"name": "a",
+						"type": "int256"
+					},
+					{
+						"internalType": "int256",
+						"name": "b",
+						"type": "int256"
+					}
+				],
+				"name": "sum",
+				"outputs": [
+					{
+						"internalType": "int256",
+						"name": "result",
+						"type": "int256"
+					}
+				],
+				"stateMutability": "pure",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/Sumar.sol": "Sumar"
+		},
+		"evmVersion": "cancun",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/Sumar.sol": {
+			"keccak256": "0xa8c4cbdf431c2cb49ec6988779c905039d63dcc2414571123f670cbc8acf6f26",
+			"license": "GPL-3.0",
+			"urls": [
+				"bzz-raw://6ed33bda531f90e08b411f13754e8663ed7e2bf1f5238dbd2e9abc791b516c8d",
+				"dweb:/ipfs/Qmb8q8wDGQu24zPJP3kHmEgjXx57UjLaDZFWJwWAwLf2yZ"
+			]
+		}
+	},
+	"version": 1
+}

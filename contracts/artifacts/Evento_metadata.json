@@ -1,0 +1,91 @@
+{
+	"compiler": {
+		"version": "0.8.25+commit.b61c2a91"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"anonymous": false,
+				"inputs": [
+					{
+						"indexed": false,
+						"internalType": "address",
+						"name": "editor",
+						"type": "address"
+					},
+					{
+						"indexed": false,
+						"internalType": "string",
+						"name": "newName",
+						"type": "string"
+					}
+				],
+				"name": "ChangeName",
+				"type": "event"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "string",
+						"name": "newName",
+						"type": "string"
+					}
+				],
+				"name": "changeName",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "tokenName",
+				"outputs": [
+					{
+						"internalType": "string",
+						"name": "",
+						"type": "string"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/Evento.sol": "Evento"
+		},
+		"evmVersion": "cancun",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/Evento.sol": {
+			"keccak256": "0x90320df9f13ed7c5ed64aa25dfa996530321f57226321bc389f36d82bc2a369c",
+			"license": "GPL-3.0",
+			"urls": [
+				"bzz-raw://1d8831680a71d97dfda651d13443a6a55aeff189c4fe73fd5c4f80d1eebb9638",
+				"dweb:/ipfs/QmUYv28x33KpByXBKMwU2AmW4VDMU855kQ3vpCGfxKFEU5"
+			]
+		}
+	},
+	"version": 1
+}

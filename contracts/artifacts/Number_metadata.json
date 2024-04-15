@@ -1,0 +1,59 @@
+{
+	"compiler": {
+		"version": "0.8.25+commit.b61c2a91"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "changeNumber",
+				"outputs": [
+					{
+						"internalType": "int256",
+						"name": "number",
+						"type": "int256"
+					}
+				],
+				"stateMutability": "pure",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/Number.sol": "Number"
+		},
+		"evmVersion": "cancun",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/Number.sol": {
+			"keccak256": "0x27dc68e84099afe2f8ed06d5b4d712731271168682d2baa41e26c0100e8b13d6",
+			"license": "GPL-3.0",
+			"urls": [
+				"bzz-raw://195ac83332522086c542329cdac059b7a805e82c93681021a2680048736d67ad",
+				"dweb:/ipfs/QmPJyEiW1zGH2ufvUBwA9XtA5EB6RD3Sq6ZJTAg9nCV2oC"
+			]
+		}
+	},
+	"version": 1
+}
